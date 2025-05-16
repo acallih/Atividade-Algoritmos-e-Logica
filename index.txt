@@ -1,0 +1,169 @@
+1) O algoritmo que eu usaria para resolver a questão:
+   - Pegar a escada
+   - Posicionar a escada embaixo da lampada
+   - Buscar a lampada reserva
+   - Subir na escada
+   - Retirar lampada velha
+   - Colocar lampada reserva
+
+2) O algoritmo que eu usaria para resolver a questão:
+   - Informar os números naturais
+   - Decompor em fatores primos
+   - Escrever os números na forma fatorada
+   - Selecionar os fatores comuns com o menor expoente
+   - Resolver as potencias
+   - Resolver as multiplicações
+   - Apresentar o resultado
+
+3) O algoritmo que eu usaria para resolver a questão:
+
+Obs: O lobo não pode ficar com o bode 
+     O bode não pode ficar com a alfalfa 
+     Portanto o Lobo pode ficar com a alfalfa ✅
+
+   - Pega o bode 
+   - Atravessa
+   - Deixa o bode na margem direita
+   - Volta
+   - Pega o lobo
+   - Atravessa
+   - Deixa o lobo na margem direita
+   - Pega o bode devolta
+   - Volta
+   - Deixa o bode na margem esquerda
+   - Pega a alfalfa
+   - Atravessa
+   - Deixa a afalfa na margem direita com o lobo
+   - Volta
+   - Pega o bode denovo
+   - Atravessa
+   - Deixa o bode na margem direita
+
+4) O algoritmo que eu usaria para resolver a questão:
+
+Obs: O número de jesuitas tem que ser maior ou igual ao de 
+     Jesuitas = J
+     Canibais = C
+
+   - Embarca 2c no barco
+   - Atravessa (Barco = c + c)
+   - Deixa na margem direita 1c (margem esquerda = jjj + c) (margem direita = c)
+   - Volta
+   - Pega 1j
+   - Atravessa (Barco = j + c)
+   - Deixa na margem direita 1j (margem esquerda = jj + c) (margem direita = j + c )
+   - Volta
+   - Pega 1j
+   - Atravessa (Barco = j + c)
+   - Deixa na margem direita 1j (margem esquerda = j + c) (margem direita = jj + c)
+   - Volta 
+   - Pega 1c
+   - Atravessa (Barco = c + c)
+   - Deixa na margem direita 1c (margem esquerda = j) (margem direita = jj + cc)
+   - Volta
+   - Pega 1j
+   - Atravessa (Barco = j + c)
+   - Deixa na margem direita 1j e 1c (margem esquerda = 0) (margem direita = jjj + ccc)
+
+5) O algoritmo que eu usaria para resolver a questão:
+
+Obs: Só pode mover um disco de cada vez
+     Astes = A / B / C
+     Discos = 1 / 2 / 3
+
+   - Mova 1 para B
+   A = 2/3   B = 1     C = 
+   - Mova 2 para C 
+   A = 3     B = 1     C = 2
+   - Mova 1 para C 
+   A = 3     B =       C = 1/2
+   - Mova 3 para B 
+   A =       B = 3     C = 1/2
+   - Mova 1 para A 
+   A = 1     B = 3     C = 2
+   - Mova 2 para B 
+   A = 1     B = 2/3   C = 
+   - Mova 1 para B 
+   A =       B = 1/2/3 c = 
+
+6)  O algoritmo que eu usaria para resolver a questão:
+   - Se a senhora Amanda foi a unica a não entrar no elevador ela está no Terreo
+   - A senhora Camila saiu no segundo andar
+   - Os dois homens sairam no quarto andar e nenhuma senhora, portanto não tem nada nele
+   - No terceiro andar tem vestidos e no quinto fica o candeireiro
+   - A senhora Filomena saiu o sexto andar
+   - A senhora Bete recebeu a bolsa portanto ela não comprou a bolsa e a gravata de uma mulher que saiu no segundo andar que não foi ela
+   - Amanda no terreo / Camila + ? no segundo / terceiro ? / quarto Homens / quinto ? / sexto Filomena
+   - Falta Bete, Divina e Elisa
+   - livros foram vendidos no terreo portanto Amanda comprou os livros
+   - Se Elisa foi a sexta pessoa a sair do elevador então ela saiu no quinto andar, pois Amanda não entrou, no segundo sairam 2, no terceiro 1, no quarto 2 homens, ela seria a 6 a saindo no quinto andar
+   - Amanda,livro,terreo/ Camila + Divina, gravata,bolsa, segundo/ Bete, vestido, terceiro/ Homens, quarto/ Elisa,candeeiro,quinto/ Filomena, chapéu, sexto
+   - Explicação final: Amanda ficou no terreo onde tem os livros, Camila saiu no segundo andar junto com divina, não poderia ser Bete pois ela recebeu o presente, tambem não poderia ser elisa pois ela saiu no quinto andar, e nem filomena pois ela saiu no sexto andar, bete recebeu uma bolsa e uma gravata, os livros estavam no terreo, o vestido no terceiro, o chapéu no sexto e o candeeiro no quinto, bete comprou o vestido, no quarto não tinha nada e apenas homens desseram nele, ja no quinto Elis comprou o candeeiro pois ela foi a sexta pessoa a sair, Filomena saiu no sexto andar e só comprou o chapéu
+
+7) O algoritmo que eu usaria para resolver a questão:
+
+Obs: A = 8l vazio
+     B = 5l cheio
+     C = 3l cheio
+
+   - Mova do B para A 
+   A = 5 B = 0 C = 3
+   - Mova do C para B 
+   A = 5 B = 3 C = 0
+   - Mova do A para C 
+   A = 2 B = 3 C = 3
+   - Mova do C para B 
+   A = 2 B = 5 C = 1
+   - Mova do C para A 
+   A = 3 B = 5 C = 0
+   - Mova do B para C 
+   A = 3 B = 2 C = 3
+   - Mova do C para A
+   A = 6 B = 2 C = 0
+   - Mova do C para B 
+   A = 6 B = 0 C = 2
+   - Mova do A para B 
+   A = 1 B = 5 C = 2
+   - Mova do B para C 
+   A = 1 B = 4 C = 3
+   - Mova do C para A 
+   A = 4 B = 4 C = 0
+
+8) O algoritmo que eu usaria para resolver a questão:
+   - Antonio não é pianista, ele só pode tocar harpa ou Violino
+   - O pianista ensaia sozinho e João ensaia com o violoncelista
+   - Portanto o violoncelista é Antonio
+   - O pianista é Francisco 
+   - E o harpista é João
+   
+9) O algoritmo que eu usaria para resolver a questão:
+
+   - Se geraldo e Julio estão em uma mesa onde tem o que bebe vodka e cerveja, na outra os que bebem vermouth e chá, na outra café e laranjada, então não bebem(vodka,cerveja,vermouth,chá,café e laranjada)
+   - Geraldo e Julio só podem beber limonada, água, whisky e champanhe e o mesmo vale para os outros que os nomes foram citados (Maria, Máximo, Ivone e Manuel)
+   - Ja os outros (João, Miguel, Nádia, Sílvia, Afonso e Cristina) tem apenas as opções de beber laranjada,café,chá,vermouth,cerveja e vodka
+   - Ja no segundo dia eliminamos chá e café, guaraná, whisky, laranjada e limonada de João, Miguel, Júlio,Geraldo, Nádia e Maria
+   - Geraldo não gosta de água, whisky,chá e vodka
+   - Julio não bebe champanhe e agua
+   - Miguel e Manuel não bebem guaraná e vodka
+   - Silvia e Afonso não bebem café 
+   Não sei explicar muito bem, porque eu fui eliminando, mas essa é a base de tudo a tabela que eu criei deu pra chegar a seguinte conclusão
+   João = vermouth
+   Miguel = cerveja
+   Nádia = vodka
+   Sílvia = laranjada
+   Afonso = chá
+   Cristina = café
+   Geraldo = champanhe
+   Júlio = vinho
+   Maria = água
+   Máximo = limonada
+   Manuel = whisky
+   Ivone = água 
+
+10) O algoritmo que eu usaria para resolver a questão:
+   - Gumercio venceu Barnabé no salto então (salto a distancia de Gumércio = 1 ou 2 lugar)
+   - Teodoro chegou atrás de Gumercio no arremesso de dardo (arremesso de dado de Teodoro = 2 ou 3 lugar) (arremesso de Gumercio = 1 ou 2 lugar)
+   - Barnabé não chegou em primeiro lugar nos 100 metros (Barnabé 100 metros = 2 ou 3)
+   - Ou seja Barnabé = 1 lugar em arremesso de dardo, Gumercio = 2 lugar e Teodoro = 3 lugar 
+   - E tambem Gumercio = 1 lugar em salto a distancia 
+   - E Teodoro = 1 lugar em 100 metros rasos 
